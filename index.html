@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Sofadi+One&family=Sofia&display=swap"
+        rel="stylesheet">
+    <!-- Animate CSS Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar-->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="/images/girl-logo.png" alt="logo-img">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="links" href="#skills">SKILLS</a></li>
+                <li class="list-items"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="section-content">
+                <h1 id="username" class="animate__animated animate__pulse">I'm Merlin <span
+                        id="lname">Kuriakose</span></h1>
+                <p id="userDetails">This is my official portfolio website. <br>Details and work experience are included
+                </p>
+                <a class="download" href="#">DOWNLOAD CV</a>
+            </div>
+            <div class="section-img">
+                <!-- shape-image -->
+                <img id="shape" class="group1" src="./images/shape.png" alt="shape-img">
+                <!-- girl -image -->
+                <img id="girl" class="group1" src="./images/girl.png" alt="girl-img">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="about-header">
+                <h1 class="about-heading">About Me</h1>
+                <p class="about-subheading">Introduction</p>
+            </div>
+            <div class="aboutBody">
+                <div class="about-img" data-aos="fade-up-right">
+                    <img class="img1" src="./images/about-me.jpg"
+                        alt="about-me-img">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci labore expedita ex soluta
+                        veniam aperiam a accusantium repellat optio assumenda maiores facere, sit inventore minus nisi
+                        atque cumque similique eos!
+                        Dignissimos corrupti sunt mollitia nihil nam, maiores, dolorem illo ea fuga unde voluptatum
+                        voluptates consequatur nobis perspiciatis repellendus officiis! Animi nam odio eius provident
+                        vel doloribus assumenda dolorum quibusdam veritatis.</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Merlin Kuriakose</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>8759412305</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>merlin@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <div class="about-header">
+                <h1 class="about-heading">Skills</h1>
+                <p class="about-subheading">My Skills</p>
+            </div>
+            <div class="skillContent">
+                <!-- progress bars -->
+                <div class="progressBars">
+                    <!-- html bar -->
+                    <div class="bars">
+                        <h3 class="barHead">HTML</h3>
+                        <span class="barPercent">93%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar htmlBar"></div>
+                    </div>
+                    <!-- CSS bar -->
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">90%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar cssBar"></div>
+                    </div>
+                    <!-- JS Bar -->
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">89%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar jsBar"></div>
+                    </div>
+                    <!-- react bar -->
+                    <div class="bars">
+                        <h3 class="barHead">React</h3>
+                        <span class="barPercent">79%</span>
+                        <div class="baseBar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="baseBar reactBar"></div>
+                    </div>
+                </div>
+                <!-- Skill image -->
+                <div class="skill-img" data-aos="fade-up-left">
+                    <img width="500px" class="mySkill" src="./images/skills.jpg"
+                        alt="skills-image">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="about-header">
+                <h1 class="about-heading">Contact</h1>
+                <p class="about-subheading">My Contacts</p>
+            </div>
+            <div class="iconCollections">
+                <!-- Linkedin -->
+                <div class="icon">
+                    <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- Twitter -->
+                <div class="icon">
+                    <a target="_blank" href="#"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- Github -->
+                <div class="icon">
+                    <a target="_blank" href="#"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- Whatsapp -->
+                <div class="icon">
+                    <a target="_blank" href="#"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- Facebook -->
+                <div class="icon">
+                    <a target="_blank" href="#"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+                <!-- Instagram -->
+                <div class="icon">
+                    <a target="_blank" href="#"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <p id="copyright">&copy; My Portfolio website - September 2024, All rights reserved to &reg; Merlin
+                Kuriakose</p>
+            <div class="icon upArrow">
+                <a href="#container"><i class="fa-solid fa-arrow-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
